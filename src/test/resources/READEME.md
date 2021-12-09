@@ -1,2 +1,0 @@
-# diteng-api-demo-test
-
