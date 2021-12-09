@@ -8,11 +8,9 @@
         <version>3.8.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>summer-sample</artifactId>
+    <artifactId>diteng-api-demo</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <packaging>war</packaging>
-
-    <url>https://github.com/cn-cerc/summer-sample</url>
+    <packaging>jar</packaging>
 
     <build>
         <plugins>
