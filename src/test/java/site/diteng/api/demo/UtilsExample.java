@@ -1,4 +1,4 @@
-package cn.cerc.summer.sample;
+package site.diteng.api.demo;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -26,7 +26,7 @@ public class UtilsExample {
 
         // DataSet 范例说明
         DataSet dataSet = new DataSet();
-        DataRow head = dataSet.getHead();
+        DataRow head = dataSet.head();
         head.setValue("tbNo", "AB201903270001");
         head.setValue("tDate", new Datetime());
         log.info("dataSet 头部信息 {}", head);
