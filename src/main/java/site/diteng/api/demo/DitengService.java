@@ -10,10 +10,21 @@ import cn.cerc.db.core.Curl;
 import cn.cerc.mis.core.ServiceState;
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * 地藤远程服务调用工具
+ */
 @Slf4j
 public class DitengService {
 
-    private static final String API_URL = "http://127.0.0.1:8101/services/";
+    /**
+     * 地藤对外提供的服务访问地址
+     */
+    private static final String API_URL = "http://127.0.0.1/services/";
+    // private static final String API_URL = "https://www.diteng.site/services/";
+
+    /**
+     * 测试帐套使用的token，正式使用请根据实际帐套分配的token
+     */
     private static final String API_TOKEN = "0098d9af12a94b37a8112629c9d580cb";
 
     private String service;
